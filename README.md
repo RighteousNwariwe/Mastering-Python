@@ -16,15 +16,3 @@ This repository contains hands-on Python exercises covering a wide range of topi
 
 🎯 Goal
 The goal of this repository is to practice and master Python through consistent exercise and real-world problem solving.
-
-🚀 Getting Started
-To run any of the exercises locally, make sure you have Python installed:
-
-python --version
-
-Then simply run any exercise file:
-
-python exercise_name.py
-
-👤 Author
-Righteous Nwariwe
