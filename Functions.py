@@ -19,6 +19,6 @@ while True:
 
     if user_input.isdigit() and int(user_input) > 0:
         evens_and_odds(int(user_input))
-        break  # ✅ Exit loop once valid input is received
+        break  
     else:
         print('Invalid input! Please insert a positive integer greater than 0.')
