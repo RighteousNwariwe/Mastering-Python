@@ -5,13 +5,13 @@
 
 
 
-full_dot = '●'
-empty_dot = '○'
 
 #function to create character
 def create_character(character_name,strength,intelligence,charisma):
     #validations for character
-     
+    full_dot = '●'
+    empty_dot = '○'
+
     if not isinstance(character_name,str):
         return 'The character name should be a string'
 
@@ -47,8 +47,7 @@ def create_character(character_name,strength,intelligence,charisma):
 
     return f'{character_name}\n{str_line}\n{int_line}\n{cha_line}'
 
-   
-create_character('ren', 4, 2, 1)   
+print(create_character('ren', 4, 2, 1))
 
 
 
